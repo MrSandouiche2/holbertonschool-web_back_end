@@ -22,9 +22,9 @@
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.9.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "v8flags": "^4.0.1"
   },
-  "dependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
