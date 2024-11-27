@@ -1,26 +1,29 @@
 function getListStudents() {
-  let students = [];
+  const students = [];
 
-  let guillaume = {
+  const guillaume = {
     id: 1,
-    firstName: "Guillaume",
-    location: "San Francisco"
+    firstName: 'Guillaume',
+    location: 'San Francisco',
   };
   students.push(guillaume);
 
-  let james = {
+  const james = {
     id: 2,
-    firstName: "James",
-    location: "Columbia"
+    firstName: 'James',
+    location: 'Columbia',
   };
   students.push(james);
 
-  let serena = {
+  const serena = {
     id: 5,
-    firstName: "Serena",
-    location: "San Francisco"
+    firstName: 'Serena',
+    location: 'San Francisco',
   };
   students.push(serena);
 
   return students;
 }
+
+const students = getListStudents();
+console.log(students);
