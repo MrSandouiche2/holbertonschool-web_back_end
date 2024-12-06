@@ -4,5 +4,6 @@ from typing import List, Union
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """documentation test"""
     """returns: va afficher le sum de mxd_lst"""
     return sum(mxd_lst)
