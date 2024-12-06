@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+"""doc"""
 import math
+"""fonction"""
 
 
 def floor(n: float) -> int:
