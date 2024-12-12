@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-
+"""le depart"""
 import random
 import asyncio
+
 
 async def async_generator():
     for _ in range(10):
