@@ -5,13 +5,7 @@ import asyncio
 
 
 async def async_generator():
+    """la fonction"""
     for _ in range(10):
         await asyncio.sleep(1)
-        yield random.randint(0, 10)
-
-
-async def main():
-    async for number in async_generator():
-        print(number)
-
-asyncio.run(main())
+        yield random.uniform(0, 10)
